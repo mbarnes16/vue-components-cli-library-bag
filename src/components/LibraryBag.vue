@@ -7,10 +7,9 @@
           :remove-from-cart-function="(item) => model.removeFromCart(item)"
       >
       </bag-item>
-
     </template>
     <template #modal-footer>
-      <b-button @click="model.checkOutBag()">Check Out</b-button>
+      <b-button @click="(model.checkOutBag())">Check Out</b-button>
     </template>
   </b-modal>
 

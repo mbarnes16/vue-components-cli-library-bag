@@ -13,13 +13,20 @@
 import Book from "./LibraryBook";
 import Movie from "./LibraryMovie";
 import Album from "./LibraryAlbum";
+import MusicVideo from "./LibraryMusicVideo";
+import Song from "./LibrarySong";
+import TVShow from "./LibraryTVShow";
 
 export default {
   name: "BagItem",
   components: {
     Book,
     Movie,
-    Album
+    Album,
+    MusicVideo,
+    Song,
+    TVShow,
+
   },
   props: {
     item: Object,
